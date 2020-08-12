@@ -22,6 +22,11 @@ The best way to get started is by learning to use 10k Immunomes as if you were a
 
 If you are interested in how the raw datasets from ImmPort were processed for 10k Immunomes you must view the code in the Data Files section. The steps for obtaining the raw data and processing it are different, depending on the dataset. Make sure to view the README's to see if there is a docker or github repo for the dataset you are interested in.
 
+## Source Code Summary
+
+We provide a summary of all the source code. This repository consists of an `10k Immunomes Source Code .pynb` file and five folders consitsting of javascript, csv, RData, .zip data, ong/jpeg images, and ipynb notebook files. 
+
+
 ## Help and Contact
 
 If you are another lab interested in 10k Immunomes, we are happy to have you reach out to [Atul Butte's lab](https://buttelab.ucsf.edu/). Sanchita Bhattacharya is the senior scientist and manager of this project (email: Sanchita.Bhattacharya@ucsf.edu). If you are a programmer with technical questions please reach out to the senior programmer of 10k Immunomes, Matthew Elliott (email: melliot1@ucsc.edu). We look forward to hearing from you!
