@@ -28,10 +28,6 @@ We provide a summary of all the source code. This repository consists of an `10k
 
 * [10k Immunomes Source Code .ipynb](https://github.com/buttelab/10kimmunomes_v2/blob/master/10k%20Immunomes%20Source%20Code%20.ipynb) This one file contains all of the code used to build the 10k Immunomes website. It is by far the most important file in the repository and where you should start reading. `10k Immunomes Source Code` launches an R shiny server. If you are unfamiliar with R shiny, you should do [tutorials](https://shiny.rstudio.com/tutorial/) on the R shiny website before continuing. The `.ipynb` file is very descriptive and provides summary of the code. To run this file you must use [Jupyter](https://jupyter.org/about). Please follow the instructions on the (docker image)[https://hub.docker.com/r/pupster90/10kimmunomes/tags] to set up the coding environment.
 
-The `app.R` file's code is broken up into 
-
-_BLANK_ major sections the .... UI and Server. The UI creates all of front the end elements of the website. The server section manages the backend code and manipulates the website interface in real-time.
-
 * [analytics](https://github.com/buttelab/10kimmunomes_v2/tree/master/analytics) This folder consists of two javascript files. These files bring [google analytics](https://analytics.google.com/analytics/web/provision/#/provision) functionality to 10k Immunomes. This is used to track the number of users visiting the site as well as to see what buttons they are clicking. The `analytics.ucsf.js` provides the feedback to google analytics that is tracked by the Butte lab team. The other file is the same code, but, at least previously, it sent data to northrop grommon for tracing.
 
 * [data](https://github.com/buttelab/10kimmunomes_v2/tree/master/data) This folder contains the data that is used to create the interactive graphs on the website. The `newtenkdata` files were the original datasets created by Kelly and Zicheng. All the other datasets are used to graph the RNA-Seq data and newborn metabolomics data added by Elliott. In the future these additional files could also be consolidated into simply `.RData` files.
