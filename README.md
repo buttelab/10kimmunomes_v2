@@ -9,7 +9,7 @@ This is an overview of the 10k Immunomes project. This documentation is for rese
 * [Video Tutorial](https://youtu.be/pwBs4J4xDOw): This video tutorial is a beginners overview of what 10k Immunomes is about and how to use it. Watching the video is the best way to begin learning about 10k Immunomes. It gives a step-by-step example of how 10k Immunomes is used for research.
 * [Published Paper](https://www.cell.com/cell-reports/pdf/S2211-1247(18)31451-7.pdf): This is a published paper describing 10k Immunomes. Reading the paper is a good way to learn more about the purpose of 10k Immunomes and the [ImmPort database](https://www.immport.org/about), where 10k's data comes from.
 * [Source Code](https://github.com/buttelab/10kimmunomes_v2): This github repo contains all of the source code. It's useful for scanning through the files, however, we **highly** reccomend using the dockerhub image when working on code. The README file provides a thorough description of all source files.
-* [Dockerhub](https://hub.docker.com/r/pupster90/10kimmunomes/tags): This docker image is by far the easiest way to start working on the 10k Immunomes project. It contains a detailed step by step tutorial on how to get the website up and running, how to edit code, and how to publish final results to a shiny proxy server.
+* [Docker](https://hub.docker.com/r/pupster90/10kimmunomes/tags): This docker image is by far the easiest way to start working on the 10k Immunomes project. It contains a detailed step by step tutorial on how to get the website up and running, how to edit code, and how to publish final results to a shiny proxy server.
 * [Data Files](https://drive.google.com/file/d/1SeOhqCkdQTzzZjOR0MVSo5VRbzjGK-jI/view?usp=sharing): This zip file contains the 10k code, as well as code and data used in preprocessing. Use this to learn how the raw data from Immport was converted into 10k Immunomes.
 
 ## Getting Started
@@ -26,7 +26,9 @@ If you are interested in how the raw datasets from ImmPort were processed for 10
 
 We provide a summary of all the source code. This repository consists of an `10k Immunomes Source Code .pynb` file and five folders consitsting of javascript, csv, RData, .zip data, png/jpeg images, and ipynb notebook files. 
 
-* [10k Immunomes Source Code .ipynb](https://github.com/buttelab/10kimmunomes_v2/blob/master/10k%20Immunomes%20Source%20Code%20.ipynb) This one file contains all of the code used to build the 10k Immunomes website. It is by far the most important file in the repository and where you should start reading. `10k Immunomes Source Code` launches an R shiny server. If you are unfamiliar with R shiny, you should do [tutorials](https://shiny.rstudio.com/tutorial/) on the R shiny website before continuing. The `app.R` file's code is broken up into 
+* [10k Immunomes Source Code .ipynb](https://github.com/buttelab/10kimmunomes_v2/blob/master/10k%20Immunomes%20Source%20Code%20.ipynb) This one file contains all of the code used to build the 10k Immunomes website. It is by far the most important file in the repository and where you should start reading. `10k Immunomes Source Code` launches an R shiny server. If you are unfamiliar with R shiny, you should do [tutorials](https://shiny.rstudio.com/tutorial/) on the R shiny website before continuing. The `.ipynb` file is very descriptive and provides summary of the code. To run this file you must use [Jupyter](https://jupyter.org/about). Please follow the instructions on the (docker image)[https://hub.docker.com/r/pupster90/10kimmunomes/tags] to set up the coding environment.
+
+The `app.R` file's code is broken up into 
 
 _BLANK_ major sections the .... UI and Server. The UI creates all of front the end elements of the website. The server section manages the backend code and manipulates the website interface in real-time.
 
