@@ -32,11 +32,11 @@ _BLANK_ major sections the .... UI and Server. The UI creates all of front the e
 
 * [analytics](https://github.com/buttelab/10kimmunomes_v2/tree/master/analytics) This folder consists of two javascript files. These files bring [google analytics](https://analytics.google.com/analytics/web/provision/#/provision) functionality to 10k Immunomes. This is used to track the nubmer of users visiting the site as well as to see what buttons they are clicking. The `analytics.ucsf.js` provides the feedback to google analytics that is tracked by the Butte lab team. The other fiel is the same code, but, at least previously, it sent data to nrthrop grommon for tracing.
 
-* [data](https://github.com/buttelab/10kimmunomes_v2/tree/master/data)
+* [data](https://github.com/buttelab/10kimmunomes_v2/tree/master/data) This folder contains the data that is used to create the interactive graphs on the website. The `newtenkdata` files were the original datasets created by Kelly and Zicheng. All the other datasets are used to graph the RNA-Seq data and newborn metabolomics data added by Elliott. In the future these additional files could also be consolidated intp simply `.RData` files.
 
-* [data_raw](https://github.com/buttelab/10kimmunomes_v2/tree/master/data_raw)
+* [data_raw](https://github.com/buttelab/10kimmunomes_v2/tree/master/data_raw)This folder contains the data that is downloaded by the user when they click the "all data" button on the website. To understand how these datasets were processed, look through the [Data Files](https://drive.google.com/file/d/1SeOhqCkdQTzzZjOR0MVSo5VRbzjGK-jI/view?usp=sharing). 
 
-* [other_code](https://github.com/buttelab/10kimmunomes_v2/tree/master/other_code)
+* [other_code](https://github.com/buttelab/10kimmunomes_v2/tree/master/other_code) This folder contains other code that was used at the very beginning of Elliott's work on the 10k Immunomes project. The `.ipynb` files are very descriptive and provide summaries of their code. This code is deprecated and no longer needed. It is better to read the code in the [Data Files](https://drive.google.com/file/d/1SeOhqCkdQTzzZjOR0MVSo5VRbzjGK-jI/view?usp=sharing). `Metabolomics Analysis.ipynb` is probably the most informative file in the folder.
 
 * [www](https://github.com/buttelab/10kimmunomes_v2/tree/master/www) This folder contains all of the images used by 10k Immunomes. These descriptive images are displayed on the homes screen of [10k Immunomes](https://10kimmunomes.ucsf.edu/) when a user visits the site.
 
