@@ -26,9 +26,11 @@ If you are interested in how the raw datasets from ImmPort were processed for 10
 
 We provide a summary of all the source code. This repository consists of an `10k Immunomes Source Code .pynb` file and five folders consitsting of javascript, csv, RData, .zip data, png/jpeg images, and ipynb notebook files. 
 
-* [10k Immunomes Source Code .ipynb](https://github.com/buttelab/10kimmunomes_v2/blob/master/10k%20Immunomes%20Source%20Code%20.ipynb) This one file contains all of the code used to build the HarmonyRNA website. It is by far the most important file in the repository and where you should start reading. `app.R` launches an R shiny server. If you are unfamiliar with R shiny, you should do [tutorials](https://shiny.rstudio.com/tutorial/) on the R shiny website before continuing. The `app.R` file's code is broken up into two major sections the UI and Server. The UI creates all of front the end elements of the website. The server section manages the backend code and manipulates the website interface in real-time.
+* [10k Immunomes Source Code .ipynb](https://github.com/buttelab/10kimmunomes_v2/blob/master/10k%20Immunomes%20Source%20Code%20.ipynb) This one file contains all of the code used to build the 10k Immunomes website. It is by far the most important file in the repository and where you should start reading. `10k Immunomes Source Code` launches an R shiny server. If you are unfamiliar with R shiny, you should do [tutorials](https://shiny.rstudio.com/tutorial/) on the R shiny website before continuing. The `app.R` file's code is broken up into 
 
-* [analytics](https://github.com/buttelab/10kimmunomes_v2/tree/master/analytics) This folder contains the images, datasets, and ComBat-Seq R files that are used by the R Shiny website. The dataset in `www` is the example dataset for the video tutorial. The R files are the original files from the [Combat-Seq github](https://github.com/zhangyuqing/ComBat-seq) repo. The only R file that is used in the website is `helper.R` which contains helper functions for the main ComBat-Seq function. The ComBat-Seq function was rewritten in `app.R` to accomadate R shiny features.
+_BLANK_ major sections the .... UI and Server. The UI creates all of front the end elements of the website. The server section manages the backend code and manipulates the website interface in real-time.
+
+* [analytics](https://github.com/buttelab/10kimmunomes_v2/tree/master/analytics) This folder consists of two javascript files. These files bring [google analytics](https://analytics.google.com/analytics/web/provision/#/provision) functionality to 10k Immunomes. This is used to track the nubmer of users visiting the site as well as to see what buttons they are clicking. The `analytics.ucsf.js` provides the feedback to google analytics that is tracked by the Butte lab team. The other fiel is the same code, but, at least previously, it sent data to nrthrop grommon for tracing.
 
 * [data](https://github.com/buttelab/10kimmunomes_v2/tree/master/data)
 
@@ -36,7 +38,7 @@ We provide a summary of all the source code. This repository consists of an `10k
 
 * [other_code](https://github.com/buttelab/10kimmunomes_v2/tree/master/other_code)
 
-* [www](https://github.com/buttelab/10kimmunomes_v2/tree/master/www)
+* [www](https://github.com/buttelab/10kimmunomes_v2/tree/master/www) This folder contains all of the images used by 10k Immunomes. These descriptive images are displayed on the homes screen of [10k Immunomes](https://10kimmunomes.ucsf.edu/) when a user visits the site.
 
 ## Help and Contact
 
